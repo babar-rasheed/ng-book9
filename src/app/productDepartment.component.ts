@@ -5,9 +5,8 @@ import { Product } from "./product.model";
  */
 @Component({
   selector: "product-department",
-  templateUrl: "./productRow.component.html"
+  templateUrl: "./productDepartment.component.html"
 })
 export class ProductDepartmentComponent {
   @Input() product: Product;
-  @HostBinding("attr.class") cssClass = "item";
 }

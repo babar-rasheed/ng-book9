@@ -1,3 +1,12 @@
 p {
   font-family: Lato;
 }
+.container {
+  align-items: center;
+  border: 1px;
+  border-color: blue;
+  background-color: lightsalmon;
+}
+div {
+  align-self: auto;
+}

@@ -8,6 +8,5 @@ import { Product } from "./product.model";
   templateUrl: "./productDisplay.component.html"
 })
 export class ProductDisplayComponent {
-  @Input() product: Product;
-  @HostBinding("attr.class") cssClass = "item";
+  @Input() price: number;
 }

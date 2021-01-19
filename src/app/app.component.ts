@@ -14,21 +14,21 @@ export class AppComponent {
       new Product(
         "MYSHOES",
         "Black Running Shoes",
-        "/assets/images/products/black-shoes.jpg",
+        "https://picsum.photos/id/1050/150/150",
         ["Men", "Shoes", "Running Shoes"],
         109.99
       ),
       new Product(
         "NEATOJACKET",
         "Blue Jacket",
-        "/assets/images/products/blue-jacket.jpg",
+        "https://picsum.photos/id/1051/150/150",
         ["Women", "Apparel", "Jackets & Vests"],
         238.99
       ),
       new Product(
         "NICEHAT",
         "A Nice Black Hat",
-        "/assets/images/products/black-hat.jpg",
+        "https://picsum.photos/id/1052/150/150",
         ["Men", "Accessories", "Hats"],
         29.99
       )
